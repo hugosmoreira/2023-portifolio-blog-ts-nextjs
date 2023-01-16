@@ -59,7 +59,7 @@ function Copyright() {
     <>
       &copy;
       <Link legacyBehavior color="inherit" href="/">
-        XY
+        Hugosmr
       </Link>{' '}
       {new Date().getFullYear()}
     </>

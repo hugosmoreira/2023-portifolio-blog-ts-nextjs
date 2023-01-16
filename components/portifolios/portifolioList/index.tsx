@@ -1,4 +1,4 @@
-import { PortfolioItem } from "./PortfolioItem";
+import { PortfolioItem } from "../portifolioList/PortifolioItem";
 
 const portfolios = [
   {
