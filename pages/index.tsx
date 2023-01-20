@@ -4,7 +4,7 @@ import { join } from 'path';
 import { PortfolioList } from '../components/portifolios';
 import { BlogList } from '../components/blogs';
 import { BaseLayout } from '../components/layouts';
-import { getFileNames, getItemInPath } from '../lib/md';
+import { getBlog, getBlogFileNames } from '../lib/md';
 import { getDir } from '../lib/md';
 
 
@@ -52,11 +52,12 @@ const  Home: NextPage = () => {
 }
 
 export const getStaticProps: GetStaticProps = () => {
-  const blogDir = getDir("/content/blogs");
-  const blogFileNames = getFileNames(blogDir);
+  const blogFileNames = getBlogFileNames();
+  
 
   blogFileNames.forEach((blogFileName) => {
-    const blogContent = getItemInPath(join(blogDir, blogFileName));
+    
+    const blogContent = getBlog(blogFileName);
     console.log(blogContent);
   })
 

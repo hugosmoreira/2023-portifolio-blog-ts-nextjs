@@ -1,5 +1,6 @@
 import { join } from 'path'
 import fs from 'fs'
+import { Blog } from "../interfaces/Blog";
 
 const getDir = (path: string) => join(process.cwd(), path)
 
@@ -24,4 +25,4 @@ const getBlog = (fileName: string) => {
     return blog;
   }
 
-export { getFileNames, getDir, getItemInPath, getBlogFileNames, getBlog }
+export {  getFileNames, getDir, getItemInPath, getBlogFileNames, getBlog }
