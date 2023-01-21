@@ -57,8 +57,9 @@ export const getStaticProps: GetStaticProps = () => {
 
   blogFileNames.forEach((blogFileName) => {
     
-    const blogContent = getBlog(blogFileName);
-    console.log(blogContent);
+    const blog = getBlog(blogFileName);
+
+    console.log(blog);
   })
 
   return {
