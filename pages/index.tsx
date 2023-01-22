@@ -4,8 +4,7 @@ import { join } from 'path';
 import { PortfolioList } from '../components/portifolios';
 import { BlogList } from '../components/blogs';
 import { BaseLayout } from '../components/layouts';
-import { getBlog, getBlogFileNames } from '../lib/md';
-import { getBlogs } from '../lib/md';
+import { getBlogs } from '../lib/blogs';
 
 
 
