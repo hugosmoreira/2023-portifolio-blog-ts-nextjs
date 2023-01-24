@@ -5,11 +5,14 @@ import { PortfolioList } from '../components/portifolios';
 import { BlogList } from '../components/blogs';
 import { BaseLayout } from '../components/layouts';
 import { getBlogs } from '../lib/blogs';
+import { Blog } from '../interfaces/Blog';
 
 
+type Props = {
+  blogs: Blog[]
+}
 
-
-const  Home: NextPage = () => {
+const Home: NextPage<Props> = ({blogs}) => {
   return (
     <>
         <BaseLayout >
@@ -25,7 +28,7 @@ const  Home: NextPage = () => {
             </h2>
 
             {/* Blog List Starts */}
-            <BlogList />   
+            <BlogList blogs={blogs} />
             {/* Blog List Ends */}
 
             <br></br>
@@ -52,10 +55,10 @@ const  Home: NextPage = () => {
 
 export const getStaticProps: GetStaticProps = () => {
   const blogs = getBlogs();
-  console.log(blogs);
+  
 
   return {
-    props: {}
+    props: {blogs}
   }
 }
 
