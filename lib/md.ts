@@ -1,6 +1,6 @@
 import { join } from 'path'
 import fs from 'fs'
-import { MarkdownItem } from "../interfaces/Markdown";
+import { MarkdownItem } from "@interfaces/Markdown";
 import matter from "gray-matter";
 
 

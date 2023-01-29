@@ -2,11 +2,10 @@ import type { GetStaticProps, NextPage } from 'next'
 import Link from "next/link";
 import { join } from 'path';
 import { PortfolioList } from '../components/portifolios';
-import { BlogList } from '../components/blogs';
-import { BaseLayout } from '../components/layouts';
-import { getBlogs } from '../lib/blogs';
-import { Blog } from '../interfaces/Blog';
-
+import { BlogList } from '@components/blogs';
+import { BaseLayout } from '@components/layouts';
+import { getBlogs } from '@lib/blogs';
+import { Blog } from '@interfaces/Blog';
 
 type Props = {
   blogs: Blog[]
