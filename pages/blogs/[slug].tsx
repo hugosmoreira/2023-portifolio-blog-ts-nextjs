@@ -3,6 +3,8 @@ import { PageLayout } from '@components/layouts';
 import { getBlogBySlug, getBlogsSlugs } from '@lib/blogs';
 import { Blog } from '@interfaces/Blog';
 import { ParsedUrlQuery } from 'querystring';
+import Image from "next/image";
+
 
 
 type Props = {
@@ -13,7 +15,7 @@ type Props = {
     return (
         <div>
              <>
-                <PageLayout>
+                <PageLayout pageTitle={blog.title}>
                     <div className="w-2/3 m-auto">
                     {/* Blog Header Starts */}
                     <div className="blog-detail-header">
@@ -21,26 +23,26 @@ type Props = {
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
                             <a href="#">
-                                <span className="sr-only">Author Name</span>
+                                <span className="sr-only">{blog.author}</span>
                                 <div className="relative h-10 w-10 !mb-0" >
-                                {/* <Image 
+                                { <Image 
                                     priority
                                     layout="fill"
                                     objectFit="cover"
                                     className="rounded-full"
-                                    src={authorImage} alt="" 
-                                /> */}
+                                    src={blog.authorImage} alt="" 
+                                /> }
                                 </div>
                             </a>
                             </div>
                             <div className="ml-3">
                             <p className="text-sm font-medium text-gray-900 !mb-0">
                                 <a href="#" className="hover:underline">
-                                Author Name
+                                {blog.author}
                                 </a>
                             </p>
                             <div className="flex space-x-1 text-sm text-gray-500">
-                                <time dateTime="{date}">2022-10-10</time>
+                                <time dateTime={blog.date}>{blog.date}</time>
                             </div>
                             </div>
                         </div>
@@ -48,14 +50,14 @@ type Props = {
                             {/* Social Links Here */}
                         </div>
                         </div>
-                        <h1 className="font-bold text-4xl mb-1">My First Blog</h1>
-                        <h2 className="blog-detail-header-subtitle mb-2 text-xl text-gray-600">My first blog description</h2>
+                        <h1 className="font-bold text-4xl mb-1">{blog.title}</h1>
+                        <h2 className="blog-detail-header-subtitle mb-2 text-xl text-gray-600">{blog.description}</h2>
                         <div className="h-96 bg-black mx-auto w-full relative">
-                        {/* <Image
+                        { <Image
                             priority
                             layout="fill"
                             objectFit="cover"
-                            src={coverImage} alt=""/> */}
+                            src={blog.coverImage} alt=""/> }
                         </div>
                     </div>
                     {/* Blog Header Ends */}
