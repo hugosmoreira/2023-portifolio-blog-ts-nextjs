@@ -4,6 +4,8 @@ import { getBlogBySlug, getBlogBySlugWithMarkdown, getBlogsSlugs } from '@lib/bl
 import { Blog } from '@interfaces/Blog';
 import { ParsedUrlQuery } from 'querystring';
 import Image from "next/image";
+import { getBlogBySlugWithMarkdown, getBlogsSlugs } from '@lib/blogs';
+import { BlogHeader } from '@components/blogs';
 
 
 
