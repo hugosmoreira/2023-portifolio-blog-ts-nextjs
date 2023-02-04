@@ -1,16 +1,10 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
-import Link from "next/link";
 import Image from 'next/legacy/image'
 import { FunctionComponent, PropsWithChildren } from 'react';
 
 import Footer from '../../../components/common/footer';
 import Header from '../../../components/common/header';
 import Navbar from '../../../components/common/navbar';
-import { PortfolioList } from '../../../components/portifolios';
-import { BlogList } from '../../../components/blogs';
-import { Children } from 'react';
-import gridPic from '../../../content/images/grid_0.png'
 
 
 const BaseLayout: FunctionComponent<PropsWithChildren> = ({children}) => {
