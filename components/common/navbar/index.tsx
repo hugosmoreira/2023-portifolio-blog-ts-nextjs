@@ -3,11 +3,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { Popover, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { ContentSearch } from '@components/search';
 
-const navigation = [
-    { name: 'Blogs', href: '/blogs' },
-    { name: 'Portfolio', href: '/portfolios' },
-  ]
+
+import { navigation } from './navigation';
 
 
 const Navbar = () => {
@@ -60,7 +59,7 @@ const Navbar = () => {
                       ))}
                     </div>
                     <div className="hidden md:block">
-                      {/* Search Input Component */}
+                      <ContentSearch />
                     </div>
                   </nav>
                 </div>
@@ -108,7 +107,7 @@ const Navbar = () => {
                         ))}
                       </div>
                       <div className="px-4">
-                        {/* Search Input Component */}
+                        <ContentSearch />
                       </div>
                       <a
                         href="#"
