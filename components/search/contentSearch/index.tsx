@@ -1,7 +1,10 @@
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid"
-import searchIndex from "../index.json";
+import searchIndex from "@content/search/index.json";
 import * as JsSearch from "js-search";
 import { useEffect } from "react";
+import contentIndexer from "@lib/client/ContentIndexer";
+
+
 
 const ContentSearch = () => {  
 
@@ -13,11 +16,11 @@ const ContentSearch = () => {
 
     searchEngine.addDocuments(searchIndex);
 
-    const results1 = searchEngine.search("nft marketplace");
-    const results2 = searchEngine.search("Practical");
-    const results3 = searchEngine.search("mark");
-    const results4 = searchEngine.search("Siemens");
-    const results5 = searchEngine.search("notexisting value");
+    const results1 = contentIndexer.search("nft marketplace");
+    const results2 = contentIndexer.search("Practical");
+    const results3 = contentIndexer.search("mark");
+    const results4 = contentIndexer.search("Siemens");
+    const results5 = contentIndexer.search("notexisting value");
   }
 
   useEffect(() => {
