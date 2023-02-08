@@ -3,16 +3,20 @@ import searchIndex from "@content/search/index.json";
 import * as JsSearch from "js-search";
 import { useEffect } from "react";
 import contentIndexer from "@lib/client/ContentIndexer";
-import { ChangeEvent } from "react";
+import { ChangeEvent, useState } from "react";
+import { SearchContent } from "@interfaces/Markdown";
+
 
 
 
 const ContentSearch = () => {  
 
-  const performSearch = (event: ChangeEvent<HTMLInputElement>) => {
+
+    const [results, setResults] = useState<SearchContent[]>([]);
+    const performSearch = (event: ChangeEvent<HTMLInputElement>) => {
     const {value} = event.target;
     const results = contentIndexer.search(value);
-    console.log(results);
+    setResults(results);
   }
   
   return (
