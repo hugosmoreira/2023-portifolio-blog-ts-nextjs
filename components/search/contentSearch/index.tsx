@@ -37,7 +37,7 @@ const ContentSearch = () => {
           placeholder="Search for anything"
         />
       </div>
-      { false &&
+      { results.length > 0 &&
         <ul
           className="w-80 border-solid border rounded-md z-10 bg-white max-h-80 overflow-auto absolute select is-multiple"
           role="listbox">
@@ -59,6 +59,18 @@ const ContentSearch = () => {
               className="mt-2 text-xs text-white bg-gray-800 px-2 py-1 rounded-xl">portfolios
             </span>
           </li>
+          { results.map(result =>
+            <li
+              key={result.slug}
+              onClick={() =>{}}
+              className={`hover:bg-indigo-600 hover:text-white p-3 relative cursor-pointer`}>
+              <div className="font-bold text-sm truncate">{result.title}</div>
+              <p className="truncate text-sm">{result.description}</p>
+              <span 
+                className="mt-2 text-xs text-white bg-gray-800 px-2 py-1 rounded-xl">{result.category}
+              </span>
+            </li>
+          )}
         </ul>
       }
     </>
