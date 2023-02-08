@@ -3,29 +3,17 @@ import searchIndex from "@content/search/index.json";
 import * as JsSearch from "js-search";
 import { useEffect } from "react";
 import contentIndexer from "@lib/client/ContentIndexer";
+import { ChangeEvent } from "react";
 
 
 
 const ContentSearch = () => {  
 
-  const buildIndex = () => {
-    const searchEngine = new JsSearch.Search("slug");
-
-    searchEngine.addIndex("title");
-    searchEngine.addIndex("description");
-
-    searchEngine.addDocuments(searchIndex);
-
-    const results1 = contentIndexer.search("nft marketplace");
-    const results2 = contentIndexer.search("Practical");
-    const results3 = contentIndexer.search("mark");
-    const results4 = contentIndexer.search("Siemens");
-    const results5 = contentIndexer.search("notexisting value");
+  const performSearch = (event: ChangeEvent<HTMLInputElement>) => {
+    const {value} = event.target;
+    const results = contentIndexer.search(value);
+    console.log(results);
   }
-
-  useEffect(() => {
-    buildIndex();
-  }, [])
   
   return (
     <>
@@ -38,6 +26,7 @@ const ContentSearch = () => {
         </div>
         <input
           id="search-input"
+          onChange={performSearch}
           autoComplete="off"
           type="text"
           className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
