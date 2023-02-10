@@ -1,6 +1,6 @@
 import { join } from 'path'
 import fs from 'fs'
-import { MarkdownItem, SearchContent  } from "@interfaces/Markdown";
+import {MarkdownContent, ContentItemName, MarkdownItem, SearchContent  } from "@interfaces/Markdown";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
@@ -31,7 +31,9 @@ const getAllItems = (
   fileNames: string[],
   get: (name: string) => MarkdownItem
 ) => {
-  const items = fileNames.map((name) => get(name));
+  const items = fileNames
+  .map((name) => get(name))
+  .sort((item1, item2) => (item1.date > item2.date ? -1 : 1));
   return items;
 }
 
@@ -45,19 +47,24 @@ const markdownToHtml = async (markdown: string) => {
   
 }
 
-const saveSearchData = (blogs: Blog[]) => {
+const saveSearchData = (content: MarkdownContent) => {
   const searchFile = getDir("/content/search/index.json");
   const searchItemList: SearchContent[] = [];
 
-  blogs.forEach((blog) => {
-    const searchItem: SearchContent = {
-      slug: blog.slug,
-      title: blog.title,
-      description: blog.description,
-      category: "blogs"
-    };
+  Object.keys(content).forEach((dataSource) => {
+    const contentName = dataSource as ContentItemName;
+    content[contentName].forEach((data) => {
+      const searchItem: SearchContent = {
+        slug: data.slug,
+        title: data.title,
+        description: data.description,
+        category: contentName
+      };
 
-    searchItemList.push(searchItem);
+      searchItemList.push(searchItem);
+    });
+
+    
   });
 
   fs.writeFileSync(searchFile, JSON.stringify(searchItemList, null, 2));

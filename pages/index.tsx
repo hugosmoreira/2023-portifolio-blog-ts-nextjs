@@ -21,7 +21,7 @@ const Home: NextPage<Props> = ({blogs, portfolios}) => {
   return (
     <>
         <BaseLayout >
-          <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="page-layout mx-auto max-w-7xl px-4 space-y-8 sm:px-6 lg:px-8">
             <h2 
               className="text-2xl font-bold tracking-tight text-gray-900">
                 Newest Blogs
@@ -65,11 +65,19 @@ export const getStaticProps: GetStaticProps = () => {
   console.log(portfolios);
 
 
-  saveSearchData(blogs);
+  const content = {
+    blogs,
+    portfolios
+  }
+
+  saveSearchData(content);
   
 
   return {
-    props: {blogs, portfolios}
+    props: {
+      blogs: blogs.slice(0, 4), 
+      portfolios: portfolios.slice(0, 4)
+    }
   }
 }
 

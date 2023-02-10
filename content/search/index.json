@@ -1,8 +1,32 @@
 [
   {
-    "slug": "markdown-full-example",
-    "title": "Markdown Extensive Example UPDATED",
-    "description": "Learn how to write markdown",
+    "slug": "how-siem-help-companies",
+    "title": "How SIEM helps in compliance with security and privacy laws?",
+    "description": "Data privacy and security laws are an evergreen concern for cybersecurity professionals",
+    "category": "blogs"
+  },
+  {
+    "slug": "how-to-learn-js-2023-p2",
+    "title": "How to learn JavaScript in 2023 Part 2",
+    "description": "Learn what is new in JavaScript in 2023 and how to learn it",
+    "category": "blogs"
+  },
+  {
+    "slug": "how-to-learn-js-2023",
+    "title": "How to learn JavaScript in 2023 Part 1",
+    "description": "Learn what is new in JavaScript in 2023 and how to learn it",
+    "category": "blogs"
+  },
+  {
+    "slug": "why-cybersecurity-is-important",
+    "title": "Why cybersecurity is important for business? [2023]",
+    "description": "Small and Medium Business cybersecurity needs to be explained!",
+    "category": "blogs"
+  },
+  {
+    "slug": "web-development-and-coding-full-course",
+    "title": "Web Development & Code 101 - Full Guide [2022]",
+    "description": "Learn programming in JS language, HTML, and CSS. Create a Web Application made in React JS. The path to the final project includes many assignments, code exercises, and challenges.",
     "category": "blogs"
   },
   {
@@ -12,9 +36,21 @@
     "category": "blogs"
   },
   {
+    "slug": "markdown-full-example",
+    "title": "Markdown Extensive Example UPDATED",
+    "description": "Learn how to write markdown",
+    "category": "blogs"
+  },
+  {
     "slug": "rust-webassembly-with-js-ts-the-practical-guide",
     "title": "Rust & WebAssembly with JS (TS) - The Practical Guide",
     "description": "Learn how to code in Rust! Compile the code to WebAssembly, prepare JS/TS frontend and finish the course by creating the practical Snake game that can run in any browser.",
+    "category": "blogs"
+  },
+  {
+    "slug": "are-you-running-your-it-blindly",
+    "title": "Are you running your IT/Cloud Infra blindly without knowing?",
+    "description": "Let's be honest, you have a ton on your plate and you haven't invested a lot of energy ensuring you're secured.",
     "category": "blogs"
   },
   {
@@ -24,9 +60,9 @@
     "category": "blogs"
   },
   {
-    "slug": "web-development-and-coding-full-course",
-    "title": "Web Development & Code 101 - Full Guide [2022]",
-    "description": "Learn programming in JS language, HTML, and CSS. Create a Web Application made in React JS. The path to the final project includes many assignments, code exercises, and challenges.",
-    "category": "blogs"
+    "slug": "software-engineer-siemens",
+    "title": "Software Engineer Siemens",
+    "description": "Working as C++ and C# software engineer",
+    "category": "portfolios"
   }
 ]

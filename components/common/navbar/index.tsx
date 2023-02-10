@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Popover, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { ContentSearch } from '@components/search';
+import logo from "./logo.png"
 
 
 import { navigation } from './navigation';
@@ -37,7 +38,7 @@ const Navbar = () => {
                               height={30}
                               alt="Your Company"
                               className="h-8 w-auto sm:h-10"
-                              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                              src={logo}
                             />
                           </a>
                         </Link>
@@ -84,7 +85,7 @@ const Navbar = () => {
                             height={20}
                             width={20}
                             className="h-8 w-auto"
-                            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                            src={logo}
                             alt=""
                           />
                         </div>
