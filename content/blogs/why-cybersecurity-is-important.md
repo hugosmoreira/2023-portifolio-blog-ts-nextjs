@@ -2,8 +2,8 @@
 title: Why cybersecurity is important for business? [2023]
 description: Small and Medium Business cybersecurity needs to be explained!
 author: Hugo Moreira
-authorImage: https://thrangra.sirv.com/Course_logo%20copy.jpg
-coverImage: https://thrangra.sirv.com/Course_logo%20copy.jpg
+authorImage: /images/nodejs1.png
+coverImage: /images/cyber2.png
 date: "2023-01-18"
 ---
 

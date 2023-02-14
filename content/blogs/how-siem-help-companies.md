@@ -2,8 +2,8 @@
 title: How SIEM helps in compliance with security and privacy laws?
 description: Data privacy and security laws are an evergreen concern for cybersecurity professionals
 author: Hugo Moreira
-authorImage: https://thrangra.sirv.com/Course_logo%20copy.jpg
-coverImage: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+authorImage: /images/nodejs1.png
+coverImage: /images/cyber3.png
 date: "2023-01-25"
 ---
 
