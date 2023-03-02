@@ -59,7 +59,7 @@ function Copyright() {
     <>
       &copy;
       <Link legacyBehavior color="inherit" href="/">
-        Hugosmr
+        Web Studio Labs
       </Link>{' '}
       {new Date().getFullYear()}
     </>

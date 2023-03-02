@@ -32,7 +32,7 @@ const Navbar = () => {
                       <div className="flex w-full items-center justify-between md:w-auto">
                         <Link legacyBehavior  href="/" >
                           <a>
-                            <span className="sr-only">Your Company</span>
+                            <span className="sr-only">Web Studio Labs</span>
                             <Image
                               width={30}
                               height={30}

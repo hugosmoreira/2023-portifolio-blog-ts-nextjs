@@ -24,7 +24,7 @@ const Home: NextPage<Props> = ({blogs, portfolios}) => {
           <div className="page-layout mx-auto max-w-7xl px-4 space-y-8 sm:px-6 lg:px-8">
             <h2 
               className="text-2xl font-bold tracking-tight text-gray-900">
-                Newest Blogs
+                Software Development
                 <Link legacyBehavior  href="/blogs">
                   <a className='text-sm ml-1 text-indigo-600'>
                     (See All)
@@ -40,7 +40,7 @@ const Home: NextPage<Props> = ({blogs, portfolios}) => {
 
             <h2 
               className="text-2xl font-bold tracking-tight text-gray-900">
-                Portfolios
+                CyberSecurity & Tech
                 <Link legacyBehavior  href="/portfolios">
                   <a className='text-sm ml-1 text-indigo-600'>
                     (See All)
