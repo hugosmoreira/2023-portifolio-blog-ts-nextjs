@@ -1,5 +1,11 @@
 [
   {
+    "slug": "rust-webassembly-with-js-ts-the-practical-guide",
+    "title": "How to secure your business from hackers in 2023",
+    "description": "Securing your business from hackers should be a top priority for every business owner. In this article, we will discuss the most common ways hackers can attack your business and how to prevent them.",
+    "category": "blogs"
+  },
+  {
     "slug": "nft-marketplace-in-react-js-next-typescript-full-guide",
     "title": "Introduction to Node.js",
     "description": "Node.js is an open-source, cross-platform runtime environment for executing JavaScript code outside of a web browser.",
@@ -45,12 +51,6 @@
     "slug": "markdown-full-example",
     "title": "Markdown Extensive Example UPDATED",
     "description": "Learn how to write markdown",
-    "category": "blogs"
-  },
-  {
-    "slug": "rust-webassembly-with-js-ts-the-practical-guide",
-    "title": "Rust & WebAssembly with JS (TS) - The Practical Guide",
-    "description": "Learn how to code in Rust! Compile the code to WebAssembly, prepare JS/TS frontend and finish the course by creating the practical Snake game that can run in any browser.",
     "category": "blogs"
   },
   {
