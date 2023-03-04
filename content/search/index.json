@@ -37,8 +37,8 @@
   },
   {
     "slug": "web-development-and-coding-full-course",
-    "title": "Web Development & Code 101 - Full Guide [2022]",
-    "description": "Learn programming in JS language, HTML, and CSS. Create a Web Application made in React JS. The path to the final project includes many assignments, code exercises, and challenges.",
+    "title": "Web Development & Code 101 - Full Guide [2023]",
+    "description": "Learn programming in JS language, HTML, and CSS.",
     "category": "blogs"
   },
   {
@@ -54,15 +54,21 @@
     "category": "blogs"
   },
   {
-    "slug": "unity-2d-with-c-complete-game-dev-course",
-    "title": "Unity 2D With C# - Complete Game Dev Course",
-    "description": "Create the complete 2D survival game in Unity with C#. Learn best practices and patterns.",
+    "slug": "sql-101",
+    "title": "SQL 101 - Basics to Learn [2023]",
+    "description": "Learn SQL language from scratch.",
     "category": "blogs"
   },
   {
-    "slug": "software-engineer-siemens",
-    "title": "Software Engineer Siemens",
-    "description": "Working as C++ and C# software engineer",
+    "slug": "top-10-best-antivirus-2023",
+    "title": "Top 10 Best Antivirus 2023",
+    "description": "Antivirus is a software that protects your computer from viruses, malware, and other threats. It is a must-have for every computer user. In this article, we will discuss the top 10 best antivirus software in 2023.",
+    "category": "portfolios"
+  },
+  {
+    "slug": "best-vpns-2023",
+    "title": "Best VPNs to use in 2023",
+    "description": "The best vpns to use in 2023 for your privacy and security",
     "category": "portfolios"
   }
 ]

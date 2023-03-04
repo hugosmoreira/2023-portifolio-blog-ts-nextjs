@@ -3,7 +3,7 @@ title: How to secure your business from hackers in 2023
 description: Securing your business from hackers should be a top priority for every business owner. In this article, we will discuss the most common ways hackers can attack your business and how to prevent them.
 author: Hugo Moreira
 authorImage: https://thrangra.sirv.com/Rust_small.jpg
-coverImage: https://thrangra.sirv.com/Rust_small.jpg
+coverImage: /images/woman.jpg
 date: "2023-02-25"
 ---
 
