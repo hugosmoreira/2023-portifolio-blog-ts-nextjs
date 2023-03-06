@@ -1,4 +1,4 @@
 export const navigation = [
-    { name: 'Blogs', href: '/blogs' },
-    { name: 'Portfolios', href: '/portfolios' },
+    { name: 'Web Dev', href: '/blogs' },
+    { name: 'Cybersec & Tech', href: '/portfolios' },
   ];

@@ -6,15 +6,9 @@
     "category": "blogs"
   },
   {
-    "slug": "nft-marketplace-in-react-js-next-typescript-full-guide",
+    "slug": "intro-to-node-js",
     "title": "Introduction to Node.js",
     "description": "Node.js is an open-source, cross-platform runtime environment for executing JavaScript code outside of a web browser.",
-    "category": "blogs"
-  },
-  {
-    "slug": "how-siem-help-companies",
-    "title": "How SIEM helps in compliance with security and privacy laws?",
-    "description": "Data privacy and security laws are an evergreen concern for cybersecurity professionals",
     "category": "blogs"
   },
   {
@@ -30,21 +24,9 @@
     "category": "blogs"
   },
   {
-    "slug": "why-cybersecurity-is-important",
-    "title": "Why cybersecurity is important for business? [2023]",
-    "description": "Small and Medium Business cybersecurity needs to be explained!",
-    "category": "blogs"
-  },
-  {
     "slug": "web-development-and-coding-full-course",
     "title": "Web Development & Code 101 - Full Guide [2023]",
     "description": "Learn programming in JS language, HTML, and CSS.",
-    "category": "blogs"
-  },
-  {
-    "slug": "are-you-running-your-it-blindly",
-    "title": "Are you running your IT/Cloud Infra blindly without knowing?",
-    "description": "Let's be honest, you have a ton on your plate and you haven't invested a lot of energy ensuring you're secured.",
     "category": "blogs"
   },
   {
@@ -66,9 +48,27 @@
     "category": "portfolios"
   },
   {
+    "slug": "how-siem-help-companies",
+    "title": "How SIEM helps in compliance with security and privacy laws?",
+    "description": "Data privacy and security laws are an evergreen concern for cybersecurity professionals",
+    "category": "portfolios"
+  },
+  {
     "slug": "best-vpns-2023",
     "title": "Best VPNs to use in 2023",
     "description": "The best vpns to use in 2023 for your privacy and security",
+    "category": "portfolios"
+  },
+  {
+    "slug": "why-cybersecurity-is-important",
+    "title": "Why cybersecurity is important for business? [2023]",
+    "description": "Small and Medium Business cybersecurity needs to be explained!",
+    "category": "portfolios"
+  },
+  {
+    "slug": "are-you-running-your-it-blindly",
+    "title": "Are you running your IT/Cloud Infra blindly without knowing?",
+    "description": "Let's be honest, you have a ton on your plate and you haven't invested a lot of energy ensuring you're secured.",
     "category": "portfolios"
   }
 ]
