@@ -47,27 +47,25 @@ I is import to continue building projects, because is one of the best ways to pr
 
 ## Free Resources
 
-**Codecademy:** A free online learning platform that offers courses in HTML, CSS, and JavaScript, among other programming languages.
+**[Codeacademy](https://www.Codeacademy.com)** A free online learning platform that offers courses in HTML, CSS, and JavaScript, among other programming languages.
 
-**W3Schools:** A website that provides tutorials and references for web development technologies, including HTML, CSS, and JavaScript.
+**[W3schools](https://www.w3schools.com)** A website that provides tutorials and references for web development technologies, including HTML, CSS, and JavaScript.
 
-**FreeCodeCamp:** A non-profit organization that offers a full curriculum in web development, including HTML, CSS, JavaScript, and more.
+**[FreeCodeCamp](https://www.FreeCodeCamp.org)** A non-profit organization that offers a full curriculum in web development, including HTML, CSS, JavaScript, and more.
 
-**Khan Academy:** A free online learning platform that offers courses in computer programming, including an introductory course in HTML and CSS.
+**[Khan Academy](https://www.khanacademy.org)** A free online learning platform that offers courses in computer programming, including an introductory course in HTML and CSS.
 
-**Udacity:** A website that offers free courses in programming, including a course on web development that covers HTML, CSS, and JavaScript.
+**[Udacity](https://www.Udacity.com)** A website that offers free courses in programming, including a course on web development that covers HTML, CSS, and JavaScript.
 
 **Mozilla Developer Network:** A website that provides tutorials and references for web development technologies, including HTML.
 
-**Layout Land:** A YouTube channel that offers video tutorials on web design and layout, including CSS.
+**[Javascript Info](https://www.javascript.info)** A website that provides tutorials and references for JavaScript, including an interactive learning environment.
 
-**JavaScript.info:** A website that provides tutorials and references for JavaScript, including an interactive learning environment.
+**[The Ninja Info](https://www.youtube.com):** A YouTube channel that offers video tutorials on web development, including JavaScript.
 
-**The Net Ninja:** A YouTube channel that offers video tutorials on web development, including JavaScript.
+**[Udemy](https://www.Udemy.com)** A website that offers paid and free courses in web development.
 
-**Udemy:** A website that offers paid and free courses in web development.
-
-**Coursera:** A platform that offers online courses and specializations in web development.
+**[Coursera](https://www.Coursera.com)** A platform that offers online courses and specializations in web development.
 
 ## Read Blogs and Newsletters
 
@@ -81,9 +79,9 @@ Smashing Magazine: A website that provides articles and tutorials on web develop
 
 Code challenges are a fun and interactive way to practice web development. They provide you with coding problems to solve and can help you improve your problem-solving skills.
 
-**Codewars:** A website that offers coding challenges in a wide range of programming languages, including JavaScript and Python.
+**[Codewars](https://www.codewars.com)** A website that offers coding challenges in a wide range of programming languages, including JavaScript and Python.
 
-**HackerRank:** A platform that offers coding challenges and competitions in web development and other programming fields.
+**[Hackerrank](https://www.hackerrank.com)** A platform that offers coding challenges and competitions in web development and other programming fields.
 
 ## Conclusion
 
