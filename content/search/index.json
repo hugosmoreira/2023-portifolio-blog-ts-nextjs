@@ -1,8 +1,14 @@
 [
   {
-    "slug": "how-to-secure-your-business",
-    "title": "How to secure your business from hackers in 2023",
-    "description": "Securing your business from hackers should be a top priority for every business owner. In this article, we will discuss the most common ways hackers can attack your business and how to prevent them.",
+    "slug": "best-pc-to-buy-2023",
+    "title": "Best PC to Buy in 2023",
+    "description": "Get a feedback of the best PCs and laptops to buy in 2023",
+    "category": "blogs"
+  },
+  {
+    "slug": "typescript-101",
+    "title": "First steps with TypeScript",
+    "description": "Typescript is a superset of JavaScript that adds static typing to the language. In this article, we will discuss the benefits of using TypeScript and how to get started with it.",
     "category": "blogs"
   },
   {
@@ -25,14 +31,8 @@
   },
   {
     "slug": "web-development-and-coding-full-course",
-    "title": "Web Development & Code 101 - Full Guide [2023]",
+    "title": "Web Development 101 - Full Guide [2023]",
     "description": "Learn programming in JS language, HTML, and CSS.",
-    "category": "blogs"
-  },
-  {
-    "slug": "markdown-full-example",
-    "title": "Markdown Extensive Example UPDATED",
-    "description": "Learn how to write markdown",
     "category": "blogs"
   },
   {
@@ -42,9 +42,21 @@
     "category": "blogs"
   },
   {
+    "slug": "best-hacking-devices-2023",
+    "title": "Best Hacking Devices 2023",
+    "description": "Some gadgets break things, exploiting cracks in our digital systems, prying them open, and crawling inside.",
+    "category": "portfolios"
+  },
+  {
     "slug": "top-10-best-antivirus-2023",
     "title": "Top 10 Best Antivirus 2023",
     "description": "Antivirus is a software that protects your computer from viruses, malware, and other threats. It is a must-have for every computer user. In this article, we will discuss the top 10 best antivirus software in 2023.",
+    "category": "portfolios"
+  },
+  {
+    "slug": "how-to-secure-your-business",
+    "title": "How to secure your business from hackers in 2023",
+    "description": "Securing your business from hackers should be a top priority for every business owner. In this article, we will discuss the most common ways hackers can attack your business and how to prevent them.",
     "category": "portfolios"
   },
   {
