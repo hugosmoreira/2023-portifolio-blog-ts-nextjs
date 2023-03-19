@@ -51,3 +51,56 @@ TypeScript's static typing is its most significant advantage over JavaScript. Wi
 Here are some examples of TypeScript typing:
 
 1 - Explicit typing: Assigning a specific type to a variable or function parameter.
+
+```typescript
+let age: number = 30;
+function greet(name: string): string {
+  return `Hello, ${name}`;
+}
+```
+
+2 - Type inference: TypeScript can infer types from the context, reducing the need for explicit type annotations.
+
+```typescript
+let age = 30; // TypeScript infers the
+number type
+let message = greet("Alice"); // TypeScript infers the string type
+```
+
+3 - Type aliases: Create custom, reusable types with type aliases.
+
+```typescript
+type UserID = number;
+let user1: UserID = 123;
+```
+
+4 - Union and intersection types: Combine multiple types into a single one.
+
+```typescript
+type StringOrNumber = string | number; // Union type
+type Serializable = string & { toJSON(): string }; // Intersection type
+```
+
+5 - Type guards: Narrow down types within a specific scope using type guards.
+
+```typescript
+function isString(value: any): value is string {
+  return typeof value === "string";
+}
+
+if (isString(message)) {
+  console.log(message.toUpperCase()); // TypeScript knows message is a string here
+}
+```
+
+Recommended Additional Resources
+
+To further enhance your TypeScript learning, consider exploring the following resources:
+
+1 - TypeScript Handbook: The official TypeScript Handbook provides comprehensive documentation on the language's features and best practices.
+2 - TypeScript Playground: Experiment with TypeScript code and see the compiled JavaScript output in real-time using the TypeScript Playground.
+3 - Community tutorials and courses: Numerous tutorials and courses, both free and paid, can help you dive deeper into TypeScript and its applications in real-world projects.
+
+TypeScript is an invaluable tool for JavaScript developers looking to scale their applications and improve their development experience. By understanding the history, differences between TypeScript and JavaScript, and key concepts such as typing, interfaces, classes, and functions, you can harness the power of TypeScript and elevate your web development skills.
+
+With a strong foundation in TypeScript, you'll be better equipped to build robust, maintainable, and efficient web applications. As you continue your TypeScript journey, don't forget to explore additional resources and engage with the community to stay up-to-date on the latest best practices and features.
