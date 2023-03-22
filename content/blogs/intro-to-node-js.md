@@ -4,7 +4,7 @@ description: Node.js is an open-source, cross-platform runtime environment for e
 author: Hugo Moreira
 authorImage: /images/nodejs1.png
 coverImage: /images/nodejs2.png
-date: "2023-02-10"
+date: "2023-02-05"
 ---
 
 # Introduction to Node.js\
