@@ -28,3 +28,12 @@ Truth: Public Wi-Fi networks can be a hotbed for hackers and other malicious act
 
 Myth 5: Cybersecurity is Solely an IT Department's Responsibility
 Truth: Cybersecurity is everyone's responsibility. While IT departments play a crucial role in implementing and maintaining security infrastructure, employees are often the first line of defense. Training and educating staff on cybersecurity best practices, such as identifying phishing attempts and avoiding suspicious downloads, can significantly reduce the risk of a breach.
+
+Myth 6: Hackers Only Target Valuable Data
+Truth: Hackers don't just target valuable data like financial information or trade secrets. They may also seek to compromise systems for ransomware attacks, create botnets, or disrupt services. Any data or system can be a potential target, making comprehensive security measures essential.
+
+Myth 7: Macs and Linux Systems are Immune to Cyber Attacks
+Truth: No operating system is immune to cyber threats. While Windows systems are often targeted due to their widespread use, Mac and Linux systems have their vulnerabilities too. Keep all devices updated and protected, regardless of the operating system.
+
+Conclusion:
+Understanding the reality behind these common cybersecurity myths is essential to stay protected in the digital world. By dispelling these misconceptions and arming yourself with accurate information, you can make informed decisions and take proactive steps to safeguard your data and systems from cyber threats. Remember, knowledge is power – and in the world of cybersecurity, it's your best defense.
