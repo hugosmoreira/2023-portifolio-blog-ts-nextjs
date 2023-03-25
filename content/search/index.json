@@ -42,51 +42,15 @@
     "category": "blogs"
   },
   {
-    "slug": "best-hacking-devices-2023",
-    "title": "Best Hacking Devices 2023",
-    "description": "Some gadgets break things, exploiting cracks in our digital systems, prying them open, and crawling inside.",
-    "category": "portfolios"
-  },
-  {
     "slug": "top-10-best-antivirus-2023",
     "title": "Top 10 Best Antivirus 2023",
     "description": "Antivirus is a software that protects your computer from viruses, malware, and other threats. It is a must-have for every computer user. In this article, we will discuss the top 10 best antivirus software in 2023.",
     "category": "portfolios"
   },
   {
-    "slug": "how-to-secure-your-business",
-    "title": "How to secure your business from hackers in 2023",
-    "description": "Securing your business from hackers should be a top priority for every business owner. In this article, we will discuss the most common ways hackers can attack your business and how to prevent them.",
-    "category": "portfolios"
-  },
-  {
-    "slug": "cybersecurity-myths",
-    "title": "Cybersecurity Myths Debunked",
-    "description": "Debunking Common Misconceptions",
-    "category": "portfolios"
-  },
-  {
-    "slug": "how-siem-help-companies",
-    "title": "How SIEM helps in compliance with security and privacy laws?",
-    "description": "Data privacy and security laws are an evergreen concern for cybersecurity professionals",
-    "category": "portfolios"
-  },
-  {
     "slug": "best-vpns-2023",
     "title": "Best VPNs to use in 2023",
     "description": "The best vpns to use in 2023 for your privacy and security",
-    "category": "portfolios"
-  },
-  {
-    "slug": "why-cybersecurity-is-important",
-    "title": "Why cybersecurity is important for business? [2023]",
-    "description": "Small and Medium Business cybersecurity needs to be explained!",
-    "category": "portfolios"
-  },
-  {
-    "slug": "are-you-running-your-it-blindly",
-    "title": "Are you running your IT/Cloud Infra blindly without knowing?",
-    "description": "Let's be honest, you have a ton on your plate and you haven't invested a lot of energy ensuring you're secured.",
     "category": "portfolios"
   }
 ]
