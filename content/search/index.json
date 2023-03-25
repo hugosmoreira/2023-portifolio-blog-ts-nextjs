@@ -1,11 +1,5 @@
 [
   {
-    "slug": "best-pc-to-buy-2023",
-    "title": "Best PC to Buy in 2023",
-    "description": "Get a feedback of the best PCs and laptops to buy in 2023",
-    "category": "blogs"
-  },
-  {
     "slug": "typescript-101",
     "title": "First steps with TypeScript",
     "description": "Typescript is a superset of JavaScript that adds static typing to the language. In this article, we will discuss the benefits of using TypeScript and how to get started with it.",
@@ -18,14 +12,20 @@
     "category": "blogs"
   },
   {
-    "slug": "how-to-learn-js-2023-p2",
-    "title": "How to learn JavaScript in 2023 Part 2",
+    "slug": "how-to-learn-js-2023",
+    "title": "How to learn JavaScript in 2023 Part 1",
     "description": "Learn what is new in JavaScript in 2023 and how to learn it",
     "category": "blogs"
   },
   {
-    "slug": "how-to-learn-js-2023",
-    "title": "How to learn JavaScript in 2023 Part 1",
+    "slug": "best-pc-to-buy-2023",
+    "title": "Best PC to Buy in 2023",
+    "description": "Get a feedback of the best PCs and laptops to buy in 2023",
+    "category": "blogs"
+  },
+  {
+    "slug": "how-to-learn-js-2023-p2",
+    "title": "How to learn JavaScript in 2023 Part 2",
     "description": "Learn what is new in JavaScript in 2023 and how to learn it",
     "category": "blogs"
   },
@@ -57,6 +57,12 @@
     "slug": "how-to-secure-your-business",
     "title": "How to secure your business from hackers in 2023",
     "description": "Securing your business from hackers should be a top priority for every business owner. In this article, we will discuss the most common ways hackers can attack your business and how to prevent them.",
+    "category": "portfolios"
+  },
+  {
+    "slug": "cybersecurity-myths",
+    "title": "Cybersecurity Myths Debunked",
+    "description": "Debunking Common Misconceptions",
     "category": "portfolios"
   },
   {
